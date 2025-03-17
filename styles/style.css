@@ -19,7 +19,11 @@ body{
     box-sizing: border-box;
     background-color: var(--cor-primaria);
     color: var(--cor-secundaria);
-    overflow: hidden;
+    overflow: auto;
+}
+
+i{
+    margin: 5px;
 }
 
 .apresentacao__imagem{
@@ -146,4 +150,15 @@ body{
     body{
         overflow: auto;
     }
+}
+
+.about__conteudo__lista{
+    list-style: none;
+    padding: 0;
+    font-size: 1.5rem; /* 24px */
+    font-family: var(--fonte-montserrat);
+}
+
+.curriculum__conteudo__subtitulo{
+    font-family: var(--fonte-krona-one);
 }
