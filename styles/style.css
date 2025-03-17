@@ -61,7 +61,7 @@ i{
 
 .apresentacao__links{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     gap: 20px;
     align-items: center;
     justify-content: space-between;
@@ -106,7 +106,7 @@ i{
     align-items: center;
     gap: 20px;
     margin-top: 20px;
-    position: fixed;
+    position:static;
     bottom: 0;
     left: 0;
     width: 100%;
@@ -147,12 +147,23 @@ i{
         justify-content: center;
     }
 
+    .rodape{
+        font-size: 1rem;
+    }
+
     body{
         overflow: auto;
     }
 }
 
 .about__conteudo__lista{
+    list-style: none;
+    padding: 0;
+    font-size: 1.5rem; /* 24px */
+    font-family: var(--fonte-montserrat);
+}
+
+.curriculum__conteudo__lista{
     list-style: none;
     padding: 0;
     font-size: 1.5rem; /* 24px */
